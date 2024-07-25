@@ -1,0 +1,7 @@
+class Pan{
+	
+	public Pan()
+	{
+		
+	}
+}

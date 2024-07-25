@@ -1,0 +1,8 @@
+class Water{
+	
+	public Water()
+	{
+		
+	}
+	
+}

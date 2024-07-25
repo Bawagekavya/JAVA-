@@ -1,0 +1,7 @@
+class Oil{
+	
+	public Oil()
+	{
+		
+	}
+}
