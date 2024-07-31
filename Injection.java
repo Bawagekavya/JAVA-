@@ -1,13 +1,14 @@
 class Injection{
 	
-	String type;
-	double cost;
-	String color;
+	String type="suubcutaneous";
+	double cost=400;
+	String color="white";
 	
 	
 	public Injection()
 	{
 		
+		System.out.println("created injection");
 		
 	}
 }

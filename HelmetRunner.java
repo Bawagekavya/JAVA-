@@ -7,16 +7,13 @@ class HelmetRunner{
 		Helmet ref = new Helmet();
 		System.out.println("default value:"+ ref.cost);
 		
-		Helmet ref1 = new Helmet();
-		ref1.costs=100;
-		System.out.println("updated value:"+ ref1.costs);
+		ref.cost=100;
+		System.out.println("updated value:"+ ref.cost);
 		
-		Helmet ref2 = new Helmet();
-		System.out.println("default value:"+ ref.color);
+        System.out.println("default value:"+ ref.color);
 		
-		Helmet ref3 = new Helmet();
-		ref3.colors="blue";
-		System.out.println("updated value:"+ ref.colors);
+		ref.color="blue";
+		System.out.println("updated value:"+ ref.color);
 		
 		
 		System.out.println("end main in helmetrunner");

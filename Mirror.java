@@ -7,6 +7,7 @@ class Mirror{
 	public Mirror()
 	{
 		
+		System.out.println("created mirror");
 		
 	}
 }

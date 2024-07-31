@@ -1,14 +1,13 @@
 class Zip{
 	
 	double size;
-	double sizeinmt;
 	
 	double cost;
-	double costs;
 	
 	public Zip()
 	{
 		
+		System.out.println("created zip");
 		
 	}
 		

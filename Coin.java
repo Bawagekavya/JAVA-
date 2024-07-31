@@ -1,10 +1,15 @@
 class Coin{
 	
     String shape;
-	String shapes;
 	
 	String color;
-	String colors;
 	
+	public Coin()
+	{
+		
+		System.out.println("Created coin");
+	}
+
+        	
 	
 }

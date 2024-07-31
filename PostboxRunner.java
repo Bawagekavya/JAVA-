@@ -7,18 +7,13 @@ class PostboxRunner{
 		Postbox ref = new Postbox();
 		System.out.println("default value:"+ref.color);
 		
-		Postbox ref1 = new Postbox();
-		ref1.colors="red";
-		System.out.println("updated value:"+ref1.colors);
+		ref.color="red";
+		System.out.println("updated value:"+ref.color);
 		
-		Postbox ref2 = new Postbox();
-		System.out.println("default value:"+ref2.place);
+		System.out.println("default value:"+ref.place);
 		
-		Postbox ref3 = new Postbox();
-		ref3.places="Rajajinagar";
-		System.out.println("updated value:"+ref3.places);
-		
-		
+		ref.place="Rajajinagar";
+		System.out.println("updated value:"+ref.place);
 		
 	    System.out.println("end main in PostboxRunner");
 

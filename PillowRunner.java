@@ -7,11 +7,9 @@ class PillowRunner{
 		Pillow ref = new Pillow();
 		System.out.println("REF :" + ref.color);
 		
-		Pillow ref1 = new Pillow();
-		System.out.println("REF1 :" + ref1.cost);
+		System.out.println("REF :" + ref.cost);
 		
-		Pillow ref2 = new Pillow();
-		System.out.println("REF2 :" + ref2.size);
+		System.out.println("REF :" + ref.size);
 		
 		
 		System.out.println("end main in PillowRunner");

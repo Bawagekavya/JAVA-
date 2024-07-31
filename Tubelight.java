@@ -1,11 +1,13 @@
 class Tubelight{
 	
-	String color;
-	String brand;
-	double cost;
+	String color="White";
+	String brand="Phillips";
+	double cost=1000;
 	
 	public Tubelight()
 	{
+		
+		System.out.println("created tubelight");
 		
 	}
 }

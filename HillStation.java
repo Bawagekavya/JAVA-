@@ -1,13 +1,13 @@
 class HillStation{
 	
 	double height;
-	double heightinmt;
 	
 	String name;
-	String names;
 	
 	public HillStation()
 	{
+		
+		System.out.println("created hillstation");
 		
 	}
 }

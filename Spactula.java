@@ -8,6 +8,7 @@ class Spactula{
 	public Spactula()
 	{
 		
+		System.out.println("created spactula");
 		
 	}
 }

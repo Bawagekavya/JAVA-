@@ -7,20 +7,15 @@ class PosterRunner{
 		Poster ref = new Poster();
 		System.out.println("default value:"+ref.theme);
 		
-		Poster ref1 = new Poster();
-		ref1.themes="awareness about education";
-		System.out.println("updated value:"+ref1.themes);
+		ref.theme="awareness about education";
+		System.out.println("updated value:"+ref.theme);
 		
-		Poster ref2 = new Poster();
-		System.out.println("default value:"+ref2.cost);
+		System.out.println("default value:"+ref.cost);
 		
-		Poster ref3 = new Poster();
-		ref3.costs=100;
-		System.out.println("updated value:"+ref3.costs);
+		ref.cost=100;
+		System.out.println("updated value:"+ref.cost);
 		
-		
-		
-	    System.out.println("end main in PosterRunner");
+		System.out.println("end main in PosterRunner");
 
 	}
 	

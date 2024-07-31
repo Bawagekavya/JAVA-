@@ -7,16 +7,13 @@ class CCTVRunner{
 		CCTV ref=new CCTV();
 		System.out.println("default value:" + ref.price);
 		
-		CCTV ref1=new CCTV();
-		ref1.prices=20000;
-		System.out.println("updated value:" + ref1.prices);
+		ref.price=20000;
+		System.out.println("updated value:" + ref.price);
 		
-		CCTV ref2=new CCTV();
-		System.out.println("default value:" +ref2.color);
+		System.out.println("default value:" +ref.color);
 		
-		CCTV ref3=new CCTV();
-		ref3.colors="black and white";
-		System.out.println("updated value:" +ref3.colors);
+		ref.color="black and white";
+		System.out.println("updated value:" +ref.color);
 		
 		System.out.println("end main in CCTGRunner");
 

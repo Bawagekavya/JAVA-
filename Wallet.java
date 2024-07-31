@@ -8,7 +8,8 @@ class Wallet{
 	public Wallet()
 	{
 		
-		
+	   System.out.println("created wallet");
+	
 	}
 }
 	

@@ -7,16 +7,13 @@ class FurnitureRunner{
 		Furniture ref=new Furniture();
 		System.out.println("default value:" + ref.price);
 		
-		Furniture ref1=new Furniture();
-		ref1.prices=15000;
-		System.out.println("updated value:" + ref1.prices);
+		ref.price=15000;
+		System.out.println("updated value:" + ref.price);
 		
-		Furniture ref2=new Furniture();
-		System.out.println("default value:" +ref2.color);
+		System.out.println("default value:" +ref.color);
 		
-		Furniture ref3=new Furniture();
-		ref3.colors="Blue";
-		System.out.println("updated value:" +ref3.colors);
+     	ref.color="Blue";
+		System.out.println("updated value:" +ref.color);
 		
 		System.out.println("end main in FurnitureRunner");
 

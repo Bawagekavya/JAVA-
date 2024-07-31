@@ -7,20 +7,15 @@ class SelfieStickRunner{
 		SelfieStick ref = new SelfieStick();
 		System.out.println("default value:"+ref.color);
 		
-		SelfieStick ref1 = new SelfieStick();
-		ref1.colors="green";
-		System.out.println("updated value:"+ref1.colors);
+		ref.color="green";
+		System.out.println("updated value:"+ref.color);
 		
-		SelfieStick ref2 = new SelfieStick();
-		System.out.println("default value:"+ref2.cost);
+		System.out.println("default value:"+ref.cost);
 		
-		SelfieStick ref3 = new SelfieStick();
-		ref3.costs=2000;
-		System.out.println("updated value:"+ref3.costs);
+		ref.cost=2000;
+		System.out.println("updated value:"+ref.cost);
 		
-		
-		
-	    System.out.println("end main in SelfieStickRunner");
+		System.out.println("end main in SelfieStickRunner");
 
 	}
 	

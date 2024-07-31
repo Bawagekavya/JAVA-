@@ -7,20 +7,15 @@ class KeyRunner{
 		Key ref = new Key();
 		System.out.println("default value:"+ref.color);
 		
-		Key ref1 = new Key();
-		ref1.colors="silver";
-		System.out.println("updated value:"+ref1.colors);
+		ref.color="silver";
+		System.out.println("updated value:"+ref.color);
 		
-		Key ref2 = new Key();
-		System.out.println("default value:"+ref2.height);
+		System.out.println("default value:"+ref.height);
 		
-		Key ref3 = new Key();
-		ref3.heightincm=3;
-		System.out.println("updated value:"+ref3.heightincm);
+		ref.height=3;
+		System.out.println("updated value:"+ref.height);
 		
-		
-		
-	    System.out.println("end main in KeyRunner");
+		System.out.println("end main in KeyRunner");
 
 	}
 	

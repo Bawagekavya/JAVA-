@@ -7,11 +7,9 @@ class InjectionRunner{
 		Injection ref = new Injection();
 		System.out.println("REF : "+ref.type);
 		
-		Injection ref1 = new Injection();
-		System.out.println("REF1 : "+ref1.cost);
+		System.out.println("REF : "+ref.cost);
 		
-		Injection ref2 = new Injection();
-		System.out.println("REF2 : "+ref2.color);
+		System.out.println("REF : "+ref.color);
 		
 		System.out.println("end main in InjectionRunner");
 

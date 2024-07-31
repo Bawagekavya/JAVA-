@@ -7,14 +7,11 @@ class MusicalInstrumentRunner{
 		MusicalInstrument ref = new MusicalInstrument();
 		System.out.println("REF : " + ref.type);
 		
-		MusicalInstrument ref1 = new MusicalInstrument();
-		System.out.println("REF1 : " + ref1.color);
+		System.out.println("REF : " + ref.color);
 		
-		MusicalInstrument ref2 = new MusicalInstrument();
-		System.out.println("REF2 : " + ref2.cost);
+		System.out.println("REF : " + ref.cost);
 		
-		MusicalInstrument ref3 = new MusicalInstrument();
-		System.out.println("REF3 : " + ref3.CreateMusic);
+		System.out.println("REF : " + ref.CreateMusic);
 		
 		System.out.println("end main in MusicalInstrumentrunner");
 

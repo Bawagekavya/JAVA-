@@ -1,14 +1,13 @@
 class Tripod{
 	
 	String name;
-	String names;
 	
 	double cost;
-	double costs;
 	
 	public Tripod()
 	{
 		
+		System.out.println("crreated tripod");
 		
 	}
 		

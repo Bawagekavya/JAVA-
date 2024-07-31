@@ -8,6 +8,7 @@ class IronBox{
 	public IronBox()
 	{
 		
+		System.out.println("created ironbox");
 		
 	}
 }

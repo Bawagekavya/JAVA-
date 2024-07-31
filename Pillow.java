@@ -8,6 +8,7 @@ class Pillow{
 	public Pillow()
 	{
 		
+		System.out.println("created pillow");
 		
 	}
 }

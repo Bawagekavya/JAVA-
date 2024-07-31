@@ -7,16 +7,13 @@ class TripodRunner{
 		Tripod ref=new Tripod();
 		System.out.println("default value:"+ref.name);
 		
-		Tripod ref1=new Tripod();
-		ref1.names="Syvo WT-3131";
-		System.out.println("updated value:"+ref1.names);
+		ref.name="Syvo WT-3131";
+		System.out.println("updated value:"+ref.name);
 		
-		Tripod ref2=new Tripod();
-		System.out.println("default value:"+ref2.cost);
+		System.out.println("default value:"+ref.cost);
 		
-		Tripod ref3=new Tripod();
-		ref3.costs=10000;
-		System.out.println("updated value:"+ref3.costs);
+		ref.cost=10000;
+		System.out.println("updated value:"+ref.cost);
 
 		System.out.println("end main in TripodRunner");
 		

@@ -7,16 +7,13 @@ class ZipRunner{
 		Zip ref=new Zip();
 		System.out.println("default value:"+ref.size);
 		
-		Zip ref1=new Zip();
-		ref1.sizeinmt=50;
-		System.out.println("updated value:"+ref1.sizeinmt);
+		ref.size=50;
+		System.out.println("updated value:"+ref.size);
 		
-		Zip ref2=new Zip();
-		System.out.println("default value:"+ref2.cost);
+		System.out.println("default value:"+ref.cost);
 		
-		Zip ref3=new Zip();
-		ref3.costs=100;
-		System.out.println("updated value:"+ref3.costs);
+		ref.cost=100;
+		System.out.println("updated value:"+ref.cost);
 
 		System.out.println("end main in ZipRunner");
 			

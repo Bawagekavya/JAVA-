@@ -7,14 +7,11 @@ class IronBoxRunner{
 		IronBox ref = new IronBox();
 		System.out.println("REF :" + ref.color);
 		
-		IronBox ref1 = new IronBox();
-		System.out.println("REF1 :" + ref1.brand);
+		System.out.println("REF :" + ref.brand);
 		
-		IronBox ref2 = new IronBox();
-		System.out.println("REF2 :" + ref2.cost);
+		System.out.println("REF :" + ref.cost);
 		
-		IronBox ref3 = new IronBox();
-		System.out.println("REF3 :" + ref3.type);
+		System.out.println("REF :" + ref.type);
 		
 		System.out.println("end main in IronBoxRunner");
 

@@ -7,16 +7,13 @@ class CameraRunner{
 		Camera ref = new Camera();
 		System.out.println("default value:"+ref.name);
 		
-		Camera ref1 = new Camera();
-		ref1.names="Action cameras";
-		System.out.println("updated value:"+ref1.names);
+		ref.name="Action cameras";
+		System.out.println("updated value:"+ref.name);
 		
-		Camera ref2 = new Camera();
-		System.out.println("default value:"+ref2.cost);
+		System.out.println("default value:"+ref.cost);
 		
-		Camera ref3 = new Camera();
-		ref3.costs=20000;
-		System.out.println("updated value:"+ref3.costs);
+		ref.cost=20000;
+		System.out.println("updated value:"+ref.cost);
 		
 		
 		

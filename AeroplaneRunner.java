@@ -7,16 +7,13 @@ class AeroplaneRunner{
 		Aeroplane ref=new Aeroplane();
 		System.out.println("default value:" + ref.ticketprice);
 		
-		Aeroplane ref1=new Aeroplane();
-		ref1.ticketprices=15000;
-		System.out.println("updated value:" + ref1.ticketprices);
+		ref.ticketprice=15000;
+		System.out.println("updated value:" + ref.ticketprice);
 		
-		Aeroplane ref2=new Aeroplane();
-		System.out.println("default value:" +ref2.color);
+		System.out.println("default value:" +ref.color);
 		
-		Aeroplane ref3=new Aeroplane();
-		ref3.colors="white";
-		System.out.println("updated value:" +ref3.colors);
+     	ref.color="white";
+		System.out.println("updated value:" +ref.color);
 		
 		System.out.println("end main in AeroplaneRunner");
 

@@ -7,14 +7,11 @@ class SpactulaRunner{
 		Spactula ref = new Spactula();
 		System.out.println("REF :" + ref.color);
 		
-		Spactula ref1 = new Spactula();
-		System.out.println("REF1 :" + ref1.brand);
+		System.out.println("REF :" + ref.brand);
 		
-		Spactula ref2 = new Spactula();
-		System.out.println("REF2 :" + ref2.cost);
+		System.out.println("REF :" + ref.cost);
 		
-		Spactula ref3 = new Spactula();
-		System.out.println("REF3 :" + ref3.type);
+		System.out.println("REF :" + ref.type);
 		
 		System.out.println("end main in Spactularunner");
 

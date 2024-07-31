@@ -7,20 +7,15 @@ class HatRunner{
 		Hat ref = new Hat();
 		System.out.println("default value:"+ref.color);
 		
-		Hat ref1 = new Hat();
-		ref1.colors="blue";
-		System.out.println("updated value:"+ref1.colors);
+		ref.color="blue";
+		System.out.println("updated value:"+ref.color);
 		
-		Hat ref2 = new Hat();
-		System.out.println("default value:"+ref2.cost);
+		System.out.println("default value:"+ref.cost);
 		
-		Hat ref3 = new Hat();
-		ref3.costs=100;
-		System.out.println("updated value:"+ref3.costs);
+		ref.cost=100;
+		System.out.println("updated value:"+ref.cost);
 		
-		
-		
-	    System.out.println("end main in HatRunner");
+		 System.out.println("end main in HatRunner");
 
 	}
 	

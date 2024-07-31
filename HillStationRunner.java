@@ -7,20 +7,15 @@ class HillStationRunner{
 		HillStation ref = new HillStation();
 		System.out.println("default value:"+ref.height);
 		
-		HillStation ref1 = new HillStation();
-		ref1.heightinmt=804.8;
-		System.out.println("updated value:"+ref1.heightinmt);
+		ref.height=804.8;
+		System.out.println("updated value:"+ref.height);
 		
-		HillStation ref2 = new HillStation();
-		System.out.println("default value:"+ref2.name);
+		System.out.println("default value:"+ref.name);
 		
-		HillStation ref3 = new HillStation();
-		ref3.names="Shivagange hills";
-		System.out.println("updated value:"+ref3.names);
+		ref.name="Shivagange hills";
+		System.out.println("updated value:"+ref.name);
 		
-		
-		
-	    System.out.println("end main in HillStationRunner");
+		System.out.println("end main in HillStationRunner");
 
 	}
 	
