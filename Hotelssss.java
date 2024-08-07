@@ -7,8 +7,8 @@ class Hotelssss{
 	public void details()
 	{
 		System.out.println("Hotelssss NAME :" +name);
-		System.out.println("Hotelssss owner:" +owner);
-		this.owner.details();
+		
+		owner.details();
 
 	}
 	

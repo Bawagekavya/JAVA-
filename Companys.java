@@ -18,7 +18,6 @@ class Companys{
 		System.out.println("Companys ID:" +this.id);
 		System.out.println("Companys NAME:" +this.name);
 		System.out.println("Companys LOCATION:" +this.location);
-		System.out.println("Companys SOFTWAREENGINEER:" +softwareEngineer);
 		this.softwareEngineer.details();
 	}
 		
